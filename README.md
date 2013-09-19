@@ -7,7 +7,7 @@ Trying to complete all projects from [Martyr2’s Mega Project List](http://www.
 
 Some details:
 
-* I will use Python to solve these. Why? Because I want to learn the language quickly.
+* I will use Ruby to solve these. Why? Because I want to learn the language quickly.
 * I have no interest in making games, so I'm excluding those from the list below.
 * I'm not interested in networking, so I *might* skip all (or some) of them.
 * The projects will not be made in the order posted.
