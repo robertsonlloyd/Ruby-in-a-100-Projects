@@ -4,11 +4,12 @@ while 1 do
 
   num = gets.chomp.to_i
   break if num < 1
+  ceil = (Math.sqrt num).to_i + 1
 
   factors = [1]
   itor = 2
 
-  while itor < num do
+  while itor < ceil do
     if num % itor == 0 then
       factors << itor
       num /= itor
