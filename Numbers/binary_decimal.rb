@@ -1,20 +1,12 @@
+#constants
+BINARY_TYPE = 1
+DECIMAL_TYPE = 2
+
 def promptConversionType
   puts "Do you want to convert (1) Binary to Decimal?"
   puts "Or you want to convert (2) Decimal to Binary?"
 
   gets.chomp.to_i
-end
-
-def isBinary input
-  input =~ /^[01]+$/
-end
-
-def wantsBin input
-  input == 2
-end
-
-def wantsDec input
-  input == 1
 end
 
 def getBinary
@@ -24,12 +16,15 @@ end
 
 def convertToDec bin
   dec = 0
-  itor = 0
+  if bin =~ /^[01]+$/ then
+    itor = 0
 
-  bin.split("").each do |i|
-    dec += i.to_i << itor
-    itor += 1
+    bin.split("").each do |i|
+      dec += i.to_i << itor
+      itor += 1
+    end
   end
+
   dec
 end
 
@@ -62,20 +57,13 @@ end
 
 type = promptConversionType
 
-if wantsBin type then
-  dec = getDecimal
-  puts ' -> ' + (convertToBin dec).to_s
+if type == BINARY_TYPE then
+  puts ' -> ' + (convertToBin getDecimal)
 else
-  if wantsDec type then
-    bin = getBinary
-    if isBinary bin then
-      puts ' -> ' + (convertToDec bin).to_s
-    else
-      puts 'Please provide a binary number'
-    end
+  if type == DECIMAL_TYPE then
+    puts ' -> ' + (convertToDec getBinary).to_s
   else 
     puts 'Invalid Response. Type (1) or (2) for your conversion type'
   end
 end
 
-puts 'End Program.'
