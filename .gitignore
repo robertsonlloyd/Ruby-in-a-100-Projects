@@ -18,4 +18,4 @@ _yardoc
 doc/
 
 #vim specifics
-.swp
+*.swp
