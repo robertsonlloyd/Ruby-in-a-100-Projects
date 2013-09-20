@@ -1,18 +1,25 @@
 def fib num
-  ret = 0
-  if num > 2 then
-    ret = fib(num-1) + fib(num-2)
-  else
-    ret = num
+  ret = Array.new num
+  itor = 0
+
+  if num>0 then
+    ret[itor] = 1
+    itor += 1
+  end
+  if num>1 then
+    ret[itor] = 2
+    itor += 1
+  end
+
+  while itor < num do
+    ret[itor] = ret[itor-1] + ret[itor-2]
+    itor += 1
   end
 
   ret
 end
 
-while 1 do
-  puts "What is n for fib(n)?"
-  STDOUT.flush
-
-  puts fib gets.chomp.to_i
-end
+puts "what is n for fib(n)?"
+STDOUT.flush
+puts (fib gets.chomp.to_i).inspect
 
