@@ -11,5 +11,5 @@ Lists
 
 ~~**Quick Sort** – Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?~~
 
-**Heap Sort** – Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+~~**Heap Sort** – Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?~~
 
