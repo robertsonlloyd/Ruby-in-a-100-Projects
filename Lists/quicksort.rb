@@ -42,9 +42,9 @@ def sortPartition arr, beginIdx, finIdx
       end
     end
 
-    puts
-    puts "pivot #{pivot}; idx #{pivotIdx}; swaps #{swaps} in #{beginIdx}..#{finIdx}"
-    puts arr.inspect
+    #puts
+    #puts "pivot #{pivot}; idx #{pivotIdx}; swaps #{swaps} in #{beginIdx}..#{finIdx}"
+    #puts arr.inspect
 
     #pivot is in it's final resting place [pivotIdx]
 
