@@ -88,6 +88,22 @@ Text
 
 **Regex Query Tool** â€“ A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular exp****ression against the source text and return any matches or flag errors in the regular exp****ression.
 
+Lists
+---------
+
+**Bubble Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+
+**Insertion Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+
+**Selection Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+
+**Merge Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+
+**Quick Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+
+**Heap Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+
+
 Networking
 ---------
 
