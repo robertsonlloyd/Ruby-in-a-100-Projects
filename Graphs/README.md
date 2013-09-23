@@ -5,7 +5,7 @@ Graphs
 
 **B* Search** – stub
 
-**BFS** – stub
+~~**BFS** – stub~~
 
 **DFS** – stub 
 
