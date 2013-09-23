@@ -52,9 +52,12 @@ end
 def bfs(source, target)
   ret = nil
   queue = [source]
+  source.mark true
 
   begin
     node = queue.shift
+    
+    puts "visit #{node.name}"
     if node.name == target then
       ret = node
       queue = []
