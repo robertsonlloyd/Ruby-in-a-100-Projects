@@ -7,7 +7,7 @@ Graphs
 
 ~~**BFS** – stub~~
 
-**DFS** – stub 
+~~**DFS** – stub~~ 
 
 **Dijkstra's algorithm** – stub
 
