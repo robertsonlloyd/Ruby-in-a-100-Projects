@@ -104,6 +104,24 @@ Lists
 **Heap Sort** 雾务 Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
 
 
+Graphs
+---------
+
+**A* Search** 雾务 stub
+
+**B* Search** 雾务 stub
+
+**BFS** 雾务 stub
+
+**DFS** 雾务 stub 
+
+**Dijkstra's algorithm** 雾务 stub
+
+**Kruskal's Algorithm** 雾务 stub
+
+**Transitive Closure** 雾务 stub
+
+
 Networking
 ---------
 
