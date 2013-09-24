@@ -9,7 +9,7 @@ Graphs
 
 ~~**DFS** – stub~~ 
 
-**Dijkstra's algorithm** – stub
+~~**Dijkstra's algorithm** – stub~~
 
 **Kruskal's Algorithm** – stub
 

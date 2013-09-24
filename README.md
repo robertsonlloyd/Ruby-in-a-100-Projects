@@ -49,7 +49,6 @@ Numbers
 
 **Tax Calculator** â€“ Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
-**Dijkstraâ€™s Algorithm** â€“ Create a program that finds the shortest path through a graph using its edges.
 
 Text
 ---------
@@ -115,7 +114,7 @@ Graphs
 
 **DFS** ÎíÎñ stub 
 
-**Dijkstra's algorithm** ÎíÎñ stub
+**Dijkstraâ€™s Algorithm** â€“ Create a program that finds the shortest path through a graph using its edges.
 
 **Kruskal's Algorithm** ÎíÎñ stub
 

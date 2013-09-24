@@ -5,10 +5,19 @@ class Node
     @name = name
     @edges = []
     @visited = false
+    @distance = -1
   end
 
   def addEdge edge
     @edges << edge
+  end
+
+  def distance
+    @distance
+  end
+
+  def setDistance newDist
+    @distance = newDist
   end
 
   def isVisited
