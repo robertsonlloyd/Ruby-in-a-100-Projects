@@ -90,35 +90,41 @@ Text
 Lists
 ---------
 
-**Bubble Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+**Bubble Sort** - Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
 
-**Insertion Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+**Insertion Sort** - Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
 
-**Selection Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+**Selection Sort** - Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
 
-**Merge Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+**Merge Sort** - Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
 
-**Quick Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+**Quick Sort** - Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
 
-**Heap Sort** ÎíÎñ Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
+**Heap Sort** - Passing in a list of Integers in STDIN, print a sorted list. Can we measure performance?
 
 
 Graphs
 ---------
 
-**A* Search** ÎíÎñ stub
+**A* Search** - Finds the shortest path through a graph to a target node, only evaluating the node with the shortest
+distance. This differs from Dijkstra's Algorithm, in that it uses a heuristic function, ``h(n)``, such that ``h(n)``
+equals the estimated cost to reach the target node, from node ``n``. Note that the heuristic function cannot
+overestimate the cost, this property is called being [admissible](http://en.wikipedia.org/wiki/Admissible_heuristic)
 
-**B* Search** ÎíÎñ stub
+**B* Search** - stub
 
-**BFS** ÎíÎñ stub
+**BFS** - stub
 
-**DFS** ÎíÎñ stub 
+**DFS** -  stub 
 
-**Dijkstraâ€™s Algorithm** â€“ Create a program that finds the shortest path through a graph using its edges.
+**Dijkstraâ€™s Algorithm** â€“ Finds the shortest path through a graph to a target node, only evaluated the node with the
+shortest distance. Dijkstra's does not use a heuristic function to predict the distance from a node to the target.
+Dijkstra's only relies on knowledge it's obtained through measuring nodes it's already visited.
 
-**Kruskal's Algorithm** ÎíÎñ stub
+**Kruskal's Algorithm** - Given a graph, it will find the minimum spanning tree, or in other terms, it will find the
+least expensive edges to keep all the graphs connected.
 
-**Transitive Closure** ÎíÎñ stub
+**Transitive Closure** - stub
 
 
 Networking
